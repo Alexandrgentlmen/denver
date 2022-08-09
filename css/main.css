@@ -2500,7 +2500,7 @@ figure {
 }
 
 .promo-services {
-  background-image: url(../../img/promo-services-img.png);
+  background-image: url(img/promo-services-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 101% 103%;
@@ -2760,7 +2760,7 @@ figure {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url(../../img/barnhouse-of-ourkeys.png);
+  background-image: url(img/barnhouse-of-ourkeys.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3494,13 +3494,13 @@ figure {
   }
 }
 .var-pay__item_house {
-  background-image: url(/img/house-pay.png);
+  background-image: url(img/house-pay.png);
 }
 .var-pay__item_percent {
-  background-image: url(/img/percent-pay.png);
+  background-image: url(img/percent-pay.png);
 }
 .var-pay__item_strings {
-  background-image: url(/img/strings-pay.png);
+  background-image: url(img/strings-pay.png);
 }
 
 .circular {
