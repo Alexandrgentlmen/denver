@@ -536,7 +536,7 @@ a {
   margin-bottom: 153px;
   padding-top: 166px;
   color: var(--color-indiblue);
-  background-image: url("../img/group-1.jpg");
+  background-image: url("img/group-1.jpg");
   background-position: center -62px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -3721,7 +3721,7 @@ figure {
   top: -3px;
   width: 30px;
   height: 30px;
-  background-image: url("../img/check.svg");
+  background-image: url("img/check.svg");
   background-position: center;
   background-size: 18px 14px;
   background-repeat: no-repeat;
