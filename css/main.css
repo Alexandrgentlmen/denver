@@ -3494,13 +3494,13 @@ figure {
   }
 }
 .var-pay__item_house {
-  background-image: url(img/house-pay.png);
+  background-image: url(../img/house-pay.png);
 }
 .var-pay__item_percent {
-  background-image: url(img/percent-pay.png);
+  background-image: url(../img/percent-pay.png);
 }
 .var-pay__item_strings {
-  background-image: url(img/strings-pay.png);
+  background-image: url(../img/strings-pay.png);
 }
 
 .circular {
