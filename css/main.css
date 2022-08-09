@@ -2500,7 +2500,7 @@ figure {
 }
 
 .promo-services {
-  background-image: url(img/promo-services-img.png);
+  background-image: url(../img/promo-services-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 101% 103%;
