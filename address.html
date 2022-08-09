@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Denver Construction</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=eb405125-b825-4781-9fbd-f6f10f6ead2a&lang=ru_RU"
+    type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo">
+      <img src="img/logo.svg" alt="Denver Construction">
+    </a>
+    <div class="header__nav">
+      <nav class="nav" data-menu>
+        <ul class="nav__list list-reset">
+          <li class="nav__item" data-menu-item><a href="/index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item" data-menu-item><a href="/project.html" class="nav__link">Проекты</a></li>
+          <li class="nav__item" data-menu-item><a href="/ourkeys.html" class="nav__link">Объекты под ключ</a></li>
+          <li class="nav__item" data-menu-item><a href="#" class="nav__link nav__link_active">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger btn-reset" data-burger aria-expanded="false" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <div class="header__tel">
+      <a href="tel:84957991479" class="header__tel_link">8 495 799-14-79</a>
+    </div>
+  </div>
+</header>
+<div class="overlay" data-menu-overlay></div>
+
+    <main>
+      <div class="our-address">
+  <div class="our-address__text">
+    <h1 class="our-address__title">Ждем вас
+      по адресу:</h1>
+    <p class="our-address__street">Москва, ул. 2 Синичкина,
+      д. 9А, строение 4</p>
+    <p class="our-address__work-hours">
+      График работы:<br>
+      <span class="our-address__times">
+        Пн-Пт с 9:00 до 16:00
+      </span>
+    </p>
+  </div>
+  <div class="map" id="map">
+
+  </div>
+</div>
+
+      <section class="order">
+  <div class="container order__container">
+    <div class="text-order">
+      <h2 class="text-order__title">Оставить заявку</h2>
+      <p class="text-order__descr">Оставьте свои контакты и наш специалист оперативно свяжется с вами</p>
+    </div>
+    <div class="data-order">
+      <form class="order-form form">
+        <label class="form-field ">
+          <span class="form-field__caption">Имя</span>
+          <input type="text" name="name" placeholder="Имя" class="form-field__input form-field__input--name">
+        </label>
+        <label class="form-field ">
+          <span class="form-field__caption">Телефон</span>
+          <input type="tel" name="tel" placeholder="Телефон" class="form-field__input form-field__input--tel">
+        </label>
+        <label class="custom-checkbox form__checkbox">
+          <input type="checkbox" name="name" placeholder="Name" class="custom-checkbox__input">
+          <span class="custom-checkbox__text">Я согласен с условиями конфидениальности</span>
+        </label>
+        <div class="form-field__button">
+          <button class="form__btn btn btn--blackblue" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class=" container footer__container">
+    <div class="logo">
+      <a href="#" class="footer__logo">
+        <img src="img/logo-light.svg" alt="Denver Construction">
+      </a>
+      <small class="footer__copy">
+        © 2021 Все права защищены
+      </small>
+    </div>
+    <nav class="nav footer__nav">
+      <ul class="footer__list list-reset">
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Главная</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Проекты</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Объекты под ключ</a>
+        </li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="footer__tel tel">
+      <a href="tel:84957991479" class="tel__link">8 495 799-14-79</a>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>

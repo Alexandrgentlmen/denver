@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Denver Construction</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=eb405125-b825-4781-9fbd-f6f10f6ead2a&lang=ru_RU"
+    type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo">
+      <img src="img/logo.svg" alt="Denver Construction">
+    </a>
+    <div class="header__nav">
+      <nav class="nav" data-menu>
+        <ul class="nav__list list-reset">
+          <li class="nav__item" data-menu-item><a href="/index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item" data-menu-item><a href="#" class="nav__link nav__link_active">Проекты</a>
+          </li>
+          <li class="nav__item" data-menu-item><a href="/ourkeys.html" class="nav__link">Объекты под ключ</a></li>
+          <li class="nav__item" data-menu-item><a href="/address.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger btn-reset" data-burger aria-expanded="false" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <div class="header__tel">
+      <a href="tel:84957991479" class="header__tel_link">8 495 799-14-79</a>
+    </div>
+  </div>
+</header>
+<div class="overlay" data-menu-overlay></div>
+
+    <main>
+      <section class="square">
+  <div class="container square__container square__container--range">
+    <ul class="square__list list-reset">
+      <li class="square__item square__checked"><span>до</span> 100 <span>м</span>2</li>
+      <li class="square__item">100-220 <span>м</span>2</li>
+      <li class="square__item">220-350 <span>м</span>2</li>
+    </ul>
+    <p class="square__kind">Бани</p>
+  </div>
+</section>
+
+        <section class="project">
+  <div class="swiper">
+    <div class="swiper-container gallery-top">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/A-frame-53.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">M 92</p>
+              <p class="project__price">135 м²<br>+ участок 7 соток<br><span>1,4 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-4.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-3.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/fahverk.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">Фархверк</h1>
+              <p class="project__title-sub"><br></p>
+              <p class="project__price">33 м²<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-2.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container gallery-thumbs">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide3.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide4.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">Барнхаус MINI</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/fahverk-slide.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">Фахверк</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide2.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+      <section class="frontage">
+  <div class="frontage__container">
+    <div class="frontage-swiper">
+      <div class="swiper-wrapper footage-variable">
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-2.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-1.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-2.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-1.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <h2 class="footage-variable__title">Варианты фасада</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="layout-appart">
+  <div class="layout-appart__container">
+    <div class="layout-appart-swiper">
+      <div class="swiper-wrapper layout-appart-variable">
+        <div class="swiper-slide">
+          <img src="../img/layout-appart/shema-2.jpg" alt="planing">
+        </div>
+        <div class="swiper-slide">
+          <h2 class="layout-appart-variable__title">Варианты планировки дома</h2>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/layout-appart/shema-3.jpg" alt="planing">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/layout-appart/shema-1.jpg" alt="planing">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/layout-appart/shema-1.jpg" alt="planing">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="equipment">
+  <div class="equipment__container container ">
+    <div class="equipment__kind ">
+      <h2 class="equipment__title">Варианты комплектаций</h2>
+      <ul class="equipment__items list-reset">
+        <li class="equipment__item equipment__item--checked">Комфорт</li>
+        <li class="equipment__item">Премиум</li>
+      </ul>
+      <a href="#" class="equipment__btn btn btn--blackblue">Оставить заявку</a>
+    </div>
+    <div class="equipment__descr">
+      <div class="accordion accordion-1 equipment__accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="accordion__title">
+            <span
+              class="accordion__title--max-txt">Домокомплект</span>            <b
+              class="accordion__title--up">624  000
+               руб.</b><br>
+            для самостоятельной сборки
+          </span>
+          </span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <p class="accordion__about"><span>Силовой каркас</span> готовый заводской комплект каркаса из сухой строганой
+            доски хвойных пород
+            северного дерева.
+            Все элементы каркаса обработаны невымываемым огнебиозащитным составом и напилены в размер по проекту
+            <span>Стойкий силовой каркас</span> из сухой строганой доски 45×195 мм
+            <span>Балки перекрытия</span> из сухой строганой доски 45×195 мм
+          </p>
+        </div>
+      </div>
+      <div class="accordion accordion-2 equipment__accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <span class="accordion__title"><span class="accordion__title--max-txt">Под
+              ключ</span>                       
+            <b class="accordion__title--down">
+              1 986 000 <span class="accordion__title--min-txt">руб.</span></b></span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <p class="accordion__about"><span>Силовой каркас</span> готовый заводской комплект каркаса из сухой строганой
+            доски хвойных пород
+            северного дерева.
+            Все элементы каркаса обработаны невымываемым огнебиозащитным составом и напилены в размер по проекту
+          </p>
+          <p class="accordion__about--sub"><span>Стойкий силовой каркаса</span> из сухой строганой доски 45×195 мм</p>
+          <p class="accordion__about--sub"><span>Балки перекрытия</span> из сухой строганой доски 45×195 мм</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div class="promo-services">
+  <h3 class="promo-services__title">Ваш дом в безопасности</h3>
+  <div class="promo-services__text">Объект строительства, материалы
+    и средства для возведения дома
+    могут быть ЗАСТРАХОВАНЫ
+    на весь период проведения
+    строительно-монтажных работ
+    <p class="promo-services__text_bottom">
+      <sup>*</sup> услуга предоставляется по желанию и за счет Заказчика
+    </p>
+  </div>
+</div>
+
+      <div class="video-side container">
+  <div class="video-side__content">
+    <svg class="video-side__svg-play" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M49 77.177V42.4741C49 39.2793 52.5606 37.3737 55.2188 39.1459L80.2049 55.8033C82.5266 57.3511 82.5901 60.7405 80.3281 62.3742L55.342 80.4197C52.6967 82.3302 49 80.4401 49 77.177Z"
+        fill="white" />
+      <circle cx="60" cy="60" r="58.5" stroke="white" stroke-width="3" />
+    </svg>
+
+    <video class="video-side__content-video" controls>
+      <source type="video/mp4" src="video/styleofbarnhouse.mp4" width="796" height="437">
+    </video>
+    <p class="video-side__content-text">
+      Барнхаус MINI 33 кв.м
+    </p>
+  </div>
+  <p class="video-side__title">Стильные дома нового поколения</p>
+</div>
+
+      <section class="order">
+  <div class="container order__container">
+    <div class="text-order">
+      <h2 class="text-order__title">Оставить заявку</h2>
+      <p class="text-order__descr">Оставьте свои контакты и наш специалист оперативно свяжется с вами</p>
+    </div>
+    <div class="data-order">
+      <form class="order-form form">
+        <label class="form-field ">
+          <span class="form-field__caption">Имя</span>
+          <input type="text" name="name" placeholder="Имя" class="form-field__input form-field__input--name">
+        </label>
+        <label class="form-field ">
+          <span class="form-field__caption">Телефон</span>
+          <input type="tel" name="tel" placeholder="Телефон" class="form-field__input form-field__input--tel">
+        </label>
+        <label class="custom-checkbox form__checkbox">
+          <input type="checkbox" name="name" placeholder="Name" class="custom-checkbox__input">
+          <span class="custom-checkbox__text">Я согласен с условиями конфидениальности</span>
+        </label>
+        <div class="form-field__button">
+          <button class="form__btn btn btn--blackblue" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class=" container footer__container">
+    <div class="logo">
+      <a href="#" class="footer__logo">
+        <img src="img/logo-light.svg" alt="Denver Construction">
+      </a>
+      <small class="footer__copy">
+        © 2021 Все права защищены
+      </small>
+    </div>
+    <nav class="nav footer__nav">
+      <ul class="footer__list list-reset">
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Главная</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Проекты</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Объекты под ключ</a>
+        </li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="footer__tel tel">
+      <a href="tel:84957991479" class="tel__link">8 495 799-14-79</a>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>

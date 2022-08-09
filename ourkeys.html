@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Denver Construction</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=eb405125-b825-4781-9fbd-f6f10f6ead2a&lang=ru_RU"
+    type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo">
+      <img src="img/logo.svg" alt="Denver Construction">
+    </a>
+    <div class="header__nav">
+      <nav class="nav" data-menu>
+        <ul class="nav__list list-reset">
+          <li class="nav__item" data-menu-item><a href="/index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item" data-menu-item><a href="/project.html" class="nav__link">Проекты</a></li>
+          <li class="nav__item" data-menu-item><a href="#" class="nav__link nav__link_active">Объекты под ключ</a></li>
+          <li class="nav__item" data-menu-item><a href="/address.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger btn-reset" data-burger aria-expanded="false" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <div class="header__tel">
+      <a href="tel:84957991479" class="header__tel_link">8 495 799-14-79</a>
+    </div>
+  </div>
+</header>
+<div class="overlay" data-menu-overlay></div>
+
+    <main>
+      <section class="square square-keys">
+  <div class="container square__container square__container--range">
+    <div class="square__list list-reset">
+      <p class="square__item square__checked">Продажа готовых домов с участками</p>
+    </div>
+  </div>
+</section>
+
+        <section class="project">
+  <div class="swiper">
+    <div class="swiper-container gallery-top">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/A-frame-53.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">M 92</p>
+              <p class="project__price">135 м²<br>+ участок 7 соток<br><span>1,4 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-4.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-3.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/fahverk.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">Фархверк</h1>
+              <p class="project__title-sub"><br></p>
+              <p class="project__price">33 м²<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide">
+            <img class="gallery-top__img" alt="foto-house" src="../img/slider-project/barnhouse-2.jpg">
+            <div class="slide__text">
+              <h1 class="project__title">БАРНХАУС</h1>
+              <p class="project__title-sub">MINI</p>
+              <p class="project__price">33 кв.м<br><span>1,2 млн руб.</span></p>
+              <a href="#" class="project__btn btn btn--blackblue">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container gallery-thumbs">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide3.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide4.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">Барнхаус MINI</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/fahverk-slide.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">Фахверк</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide-container slider">
+            <img alt="foto-house" class="slider__image" src="../img/slider-project/slider/barnhouse-slide2.jpg">
+          </div>
+          <div class="swiper-slide__text">
+            <p class="swiper-slide__name">A Frame 53</p>
+            <span>33 м²</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+      <div class="container price-includes">
+  <h2 class="price-includes__title">В стоимость включено:</h2>
+  <ul class="price-includes__list list-reset">
+    <li class="price-includes__item roof" data-numb="0">
+      <span class="price-includes__text price-includes__text-roof">
+        Кликфальц Grandline DRAP, цвет 7024 (матовый).
+      </span>
+      Кровля
+    </li>
+    <li class="price-includes__item frame" data-numb="1">
+      <span class="price-includes__text price-includes__text-frame">Каркас из хвойного пиломатериала строганного
+        камерной сушки.</span>
+      Каркас
+    </li>
+    <li class="price-includes__item doors" data-numb="2">
+      <span class="price-includes__text price-includes__text-doors">Профилированный оцинкованный лист с полимерным
+        покрытием.</span>
+      Двери
+    </li>
+    <li class="price-includes__item net" data-numb="3">
+      <span class="price-includes__text price-includes__text-net"> Выводы воды и канализации под душ, ванную,
+        умывальник, унитаз, бойлер и стиральную машину.
+      </span>
+      Инженерные сети
+    </li>
+    <li class="price-includes__item stairs" data-numb="4">
+      <span class="price-includes__text price-includes__text-stairs">Лестница из хвойных пород на антресоль.</span>
+      Лестница
+    </li>
+    <li class="price-includes__item front price-includes__item--active" data-numb="5">
+      <span class="price-includes__text price-includes__text-front">Профилированный оцинкованный лист с полимерным
+        покрытием.</span>
+      Фасады
+    </li>
+    <li class="price-includes__item terrassa" data-numb="6">
+      <span class="price-includes__text price-includes__text-terrassa">Палубная доска из лиственницы 120×28 мм,
+        обработанная защитным маслом.</span>
+      Террасса
+    </li>
+    <li class="price-includes__item fundament" data-numb="7">
+      <span class="price-includes__text price-includes__text-fundament">Фундамент — винтовые сваи 76 диаметра с обвязкой
+        из бруса сечением 150×200 мм и обработкой защитным составом.
+      </span>
+      Фундамент
+    </li>
+  </ul>
+</div>
+
+      <section class="frontage">
+  <div class="frontage__container">
+    <div class="frontage-swiper">
+      <div class="swiper-wrapper footage-variable">
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-2.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-1.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-2.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider-footage/card-1.jpg" alt="house">
+        </div>
+        <div class="swiper-slide">
+          <h2 class="footage-variable__title">Варианты фасада</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="gellary">
+  <div class="gellary__container container">
+    <figure class="pic1">
+      <picture class="gellary__picture">
+        <source srcset="../img/small/small_barnhouse-1.jpg" media="(max-width:768px)">
+        <source srcset="../img/small/small_barnhouse-1.jpg" media="(max-width:1920px)">
+        <img srcset="../img/barnhouse-1.jpg" alt="picture" class="gellary__img">
+      </picture>
+      <figcaption class="gellary__caption">
+        Барнхаус
+        M<span>ini</span>
+      </figcaption>
+    </figure>
+    <figure class="pic2">
+      <picture class="gellary__picture">
+        <source srcset="../img/small/small_barnhouse-2.jpg" media="(max-width:768px)">
+        <source srcset="../img/small/small_barnhouse-2.jpg" media="(max-width:1920px)">
+        <img srcset="../img/barnhouse-2.jpg" alt="picture" class="gellary__img">
+      </picture>
+      <figcaption class="gellary__caption">
+        Барнхаус
+        M<span>ini</span>
+      </figcaption>
+    </figure>
+    <figure class="pic3">
+      <picture class="gellary__picture">
+        <source srcset="../img/small/small_barnhouse-3.jpg" media="(max-width:768px)">
+        <source srcset="../img/small/small_barnhouse-3.jpg" media="(max-width:1920px)">
+        <img srcset="../img/barnhouse-3.jpg" alt="picture" class="gellary__img">
+      </picture>
+      <figcaption class="gellary__caption">
+        Барнхаус
+        M<span>ini</span>
+      </figcaption>
+    </figure>
+    <figure class="pic4">
+      <picture class="gellary__picture ">
+        <source srcset="../img/small/small_barnhouse-4.jpg" media="(max-width:768px)">
+        <source srcset="../img/small/small_barnhouse-4.jpg" media="(max-width:1920px)">
+        <img srcset="../img/barnhouse-4.jpg" alt="picture" class="gellary__img">
+      </picture>
+      <figcaption class="gellary__caption">
+        Барнхаус
+        M<span>ini</span>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="gellary__descr descr">
+    <p class="descr__text">
+      Дом, продуманный вплоть до самой последней мелочи, может быть возведен всего за три месяца с использованием
+      промышленных методов строительства.
+    </p>
+    <a href="#" class="descr__btn btn btn-reset btn--primary">Скачать каталог</a>
+  </div>
+  <div class="gellary__circular circular" data-box="40" data-diametr=30">
+    поколения Стильные дома нового
+  </div>
+
+</section>
+
+      <div class="var-pay container">
+  <h3 class="var-pay__title">Варианты оплаты:</h3>
+  <ul class="var-pay__list list-reset">
+    <li class="var-pay__item var-pay__item_house">оплата
+      с использованием ипотеки</li>
+    <li class="var-pay__item var-pay__item_percent">Оплата с рассрочкой
+      до 3 месяцев</li>
+    <li class="var-pay__item var-pay__item_strings">Обмен на квартиру
+      (трейд-ин)</li>
+  </ul>
+</div>
+
+      <section class="order">
+  <div class="container order__container">
+    <div class="text-order">
+      <h2 class="text-order__title">Оставить заявку</h2>
+      <p class="text-order__descr">Оставьте свои контакты и наш специалист оперативно свяжется с вами</p>
+    </div>
+    <div class="data-order">
+      <form class="order-form form">
+        <label class="form-field ">
+          <span class="form-field__caption">Имя</span>
+          <input type="text" name="name" placeholder="Имя" class="form-field__input form-field__input--name">
+        </label>
+        <label class="form-field ">
+          <span class="form-field__caption">Телефон</span>
+          <input type="tel" name="tel" placeholder="Телефон" class="form-field__input form-field__input--tel">
+        </label>
+        <label class="custom-checkbox form__checkbox">
+          <input type="checkbox" name="name" placeholder="Name" class="custom-checkbox__input">
+          <span class="custom-checkbox__text">Я согласен с условиями конфидениальности</span>
+        </label>
+        <div class="form-field__button">
+          <button class="form__btn btn btn--blackblue" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class=" container footer__container">
+    <div class="logo">
+      <a href="#" class="footer__logo">
+        <img src="img/logo-light.svg" alt="Denver Construction">
+      </a>
+      <small class="footer__copy">
+        © 2021 Все права защищены
+      </small>
+    </div>
+    <nav class="nav footer__nav">
+      <ul class="footer__list list-reset">
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Главная</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Проекты</a></li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Объекты под ключ</a>
+        </li>
+        <li class="nav__item nav__item--footer"><a href="#" class="nav__link nav__link--footer">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="footer__tel tel">
+      <a href="tel:84957991479" class="tel__link">8 495 799-14-79</a>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
