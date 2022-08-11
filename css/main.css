@@ -3597,7 +3597,7 @@ figure {
   padding-bottom: 18px;
 }
 .nav__item--footer-active:after {
-  background: url("/img/icon-string.svg");
+  background: url("../img/icon-string.svg");
   background-size: 90%;
   background-repeat: no-repeat;
   position: absolute;
